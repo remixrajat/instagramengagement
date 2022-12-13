@@ -1,0 +1,38 @@
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+  height: 4rem;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}
+.Navbar-child {
+  width: 32vw;
+  display: flex;
+  flex-direction: row;
+  color: gray;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 5vw;
+}
+
+.Navbar-child1 {
+  width: 250px;
+  margin: auto;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.Profile {
+  height: 70%;
+  width: 10%;
+  border-radius: 50%;
+  border: 2px solid #5eedd7;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
